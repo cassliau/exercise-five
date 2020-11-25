@@ -1,2 +1,21 @@
 .App {
 }
+
+.Header {
+}
+
+.Header nav {
+  display: flex;
+  justify-content: flex-end;
+  max-width: 1040px;
+  margin: 0 auto;
+}
+
+.Header nav a {
+  color: black;
+  display: block;
+  margin: 10px;
+}
+
+.SignupForm {
+}
