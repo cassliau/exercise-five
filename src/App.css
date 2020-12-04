@@ -28,15 +28,11 @@
   flex-direction: column;
 }
 
-.SignupForm input {
-  display: flex;
+.SignupForm input,
+.SignupForm button {
+  display: inline-block;
   margin-bottom: 30px;
   max-width: 200px;
   width: 100%;
-}
-
-.SignupForm button {
-  display: flex;
-  margin-bottom: 30px;
-  max-width: 70px;
+  text-align: center;
 }
